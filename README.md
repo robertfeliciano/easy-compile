@@ -12,7 +12,7 @@ This short Batch script allows me to compile programs by only typing one word on
   
 Note that the appropriate command, for example "**cmake**", will compile all C files in the directory the command is used in. 
   
-##How Do I Use It?
+## How Do I Use It?
 Pre-requisite:
 * Have the GNU compiler set up on your computer. You can follow [this](https://www.youtube.com/watch?v=0HD0pqVtsmw&t=3s&ab_channel=LearningLad) YouTube video for a full tutorial on installing MinGW. I found them very helpful when I needed help.
 
