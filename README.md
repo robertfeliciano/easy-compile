@@ -6,9 +6,9 @@ I learned both C and C++ on a Linux VM. Because of this I had the GNU compiler t
 
 I also always had a makefile on Linux to easily compile my C++ programs by just typing "**make**" in the terminal. This was the main thing I missed when I switched to Windows, because installing "make" on Windows seemed like way too much work than it should be.
 
-Since I use GNU, I had to type "**gcc <filename>.c -o <new_filename>**" on the command line whenever I wanted to compile a C program (for C++ it is just a matter of changing "**gcc**" to "**g++**"). 
+Since I use GNU, I had to type "**gcc <file_name>.c -o <new_name>**" on the command line whenever I wanted to compile a C program (for C++ it is just a matter of changing "**gcc**" to "**g++**"). 
   
-This short Batch script allows me to compile programs by only typing one word onto the command line. For compiling C code, I simply type "**cmake**" and for C++ I type "**cpmake**". The result is an executable with the same name as the original file. Since I use PowerShell rather than Command Prompt, I feel right at home (Linux) typing "cpmake" and then "./<filename>" to run a C++ program.
+This short Batch script allows me to compile programs by only typing one word onto the command line. For compiling C code, I simply type "**cmake**" and for C++ I type "**cpmake**". The result is an executable with the same name as the original file. Since I use PowerShell rather than Command Prompt, I feel right at home (Linux) typing "**cpmake**" and then "**./<file_name>**" to run a C++ program.
   
 Note that the appropriate command, for example "**cmake**", will compile all C files in the directory the command is used in. 
   
