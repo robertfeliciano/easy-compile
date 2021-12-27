@@ -20,10 +20,8 @@ echo Error: No project with that name found in this directory.
 
 :compile_c 
 gcc %file% -o %name%
-echo Project compiled successfully.
 goto :eof
 
 :compile_cpp
 g++ %file% -o %name%
-echo Project compiled successfully.
 goto :eof
