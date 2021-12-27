@@ -17,6 +17,7 @@ for %%f in (.\*) do (
     )
 )
 echo Error: No project with that name found in this directory.
+goto :eof
 
 :compile_c 
 gcc %file% -o %name%
