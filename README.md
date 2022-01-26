@@ -2,7 +2,7 @@
 
 This is a small tool I made because I didn't like typing the compile commands for C/C++ myself.
 
-I learned both C and C++ on a Linux VM. Because of this I had the GNU compiler to use for all my projects, but when I switched to Windows this was not the case. I decided to use MinGW64, which provides the GNU C/C++ compilers and debuggers for Windows.
+I learned both C and C++ on Linux and because of this I had the GNU compiler to use for all my projects, but when I switched to Windows this was not the case. I decided to use MinGW64, which provides the GNU C/C++ compilers and debuggers for Windows. 
 
 I also always had a makefile on Linux to easily compile my C++ programs by just typing "**make**" in the terminal. This was the main thing I missed when I switched to Windows, because installing "make" on Windows seemed like way too much work than it should be.
 
@@ -10,7 +10,6 @@ Since I use GNU, I had to type "**gcc <file_name>.c -o <new_name>**" on the comm
 
 This short batch script makes compiling C/C++ a _lot_ easier. All you need to is type "**make**" followed by the name of the file (without the extension) you wish to compile. For example, if I wanted to compile something like filename.cpp, I'd just type "**make** filename".
 
-Note: if you have a C file and a C++ file with the same name, it will compile both of them.
 
 ## How Do I Use It?
 Pre-requisite:
